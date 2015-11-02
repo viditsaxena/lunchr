@@ -1,0 +1,27 @@
+<div class="overlay">
+
+
+<h1>LUNCHR</h1>
+
+<div class="submit">
+
+
+<form action="/lunchplaces" method="post">
+  <input type="text" name="lunch_place" placeholder="suggest a new place">
+  <input type="submit">
+</form>
+
+</div>
+
+
+
+<div class="wrapper">
+  <h2 class="lunchplace">
+
+    <%= @lunchplaces.sample %>
+
+  </h2>
+
+<button class="new_place" type="button" name="need_lunch_place">Need a lunchplace</button>
+</div>
+</div>
